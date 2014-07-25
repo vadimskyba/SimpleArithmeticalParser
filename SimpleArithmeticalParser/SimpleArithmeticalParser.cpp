@@ -31,7 +31,7 @@ bool CheckProvidedOperation(char operation);
 int _tmain(int argc, _TCHAR* argv[])
 {
 	cout << "Hi, this is a simple arithmetical parser." << endl;
-	cout << "Please, enter arithmetical expression like: 10.5*(2*3(-4+3))-2*(2+3)" << endl;
+	cout << "Please, enter arithmetical expression like: 10.5*(2+3*(-4+3))-2*(2+3)" << endl;
 	cout << "To quit the program, please type 'quit'." << endl << endl;
 
 	bool bExit = false;
