@@ -195,7 +195,7 @@ bool GetSectionType(const char *str, const int nStrLen, SECTION_TYPE *secType)
 		numSign = -1;
 		iNumStrPos++;
 	}
-	else if (str[iNumStrPos] == '-') // there is a sign '+' before number
+	else if (str[iNumStrPos] == '+') // there is a sign '+' before number
 	{
 		iNumStrPos++;
 	}
